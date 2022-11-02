@@ -11,24 +11,6 @@ Public Class Form1
 
         d = (b * b) - (4 * a * c)
 
-        If d > 0 Then
-            x1 = (-b + Math.Sqrt(d)) / (2 * a)
-            x2 = (-b - Math.Sqrt(d)) / (2 * a)
-
-            lblX1.Text = x1
-            lblX2.Text = x2
-        ElseIf d = 0 Then
-            x = -b / 2 * a
-
-            lblX.Text = x
-        Else
-            real = -b / (2 * a)
-            imag = Math.Sqrt(-d) / (2 * a)
-
-            lblReal.Text = real
-            lblImag.Text = imag
-        End If
-
         Select Case d
             Case Is > 0
                 x1 = (-b + Math.Sqrt(d)) / (2 * a)
@@ -36,10 +18,12 @@ Public Class Form1
 
                 lblX1.Text = x1
                 lblX2.Text = x2
+
             Case Is = 0
                 x = -b / 2 * a
 
                 lblX.Text = x
+
             Case Else
                 real = -b / (2 * a)
                 imag = Math.Sqrt(-d) / (2 * a)
