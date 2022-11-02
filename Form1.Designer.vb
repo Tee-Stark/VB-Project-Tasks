@@ -131,7 +131,6 @@ Partial Class Form1
         Me.calcButton.Size = New System.Drawing.Size(140, 25)
         Me.calcButton.TabIndex = 10
         Me.calcButton.Text = "Calculate"
-        Me.calcButton.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.calcButton.UseVisualStyleBackColor = True
         '
         'x1Label
@@ -249,6 +248,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblForm)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
