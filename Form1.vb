@@ -29,5 +29,23 @@ Public Class Form1
             lblImag.Text = imag
         End If
 
+        Select Case d
+            Case Is > 0
+                x1 = (-b + Math.Sqrt(d)) / (2 * a)
+                x2 = (-b - Math.Sqrt(d)) / (2 * a)
+
+                lblX1.Text = x1
+                lblX2.Text = x2
+            Case Is = 0
+                x = -b / 2 * a
+
+                lblX.Text = x
+            Case Else
+                real = -b / (2 * a)
+                imag = Math.Sqrt(-d) / (2 * a)
+
+                lblReal.Text = real
+                lblImag.Text = imag
+        End Select
     End Sub
 End Class
