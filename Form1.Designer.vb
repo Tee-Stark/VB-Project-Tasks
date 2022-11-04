@@ -131,9 +131,9 @@ Partial Class Form1
         'calcButton
         '
         Me.calcButton.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.calcButton.Location = New System.Drawing.Point(296, 254)
+        Me.calcButton.Location = New System.Drawing.Point(236, 250)
         Me.calcButton.Name = "calcButton"
-        Me.calcButton.Size = New System.Drawing.Size(140, 25)
+        Me.calcButton.Size = New System.Drawing.Size(200, 50)
         Me.calcButton.TabIndex = 10
         Me.calcButton.Text = "Calculate"
         Me.calcButton.UseVisualStyleBackColor = True
@@ -230,10 +230,10 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label7.Location = New System.Drawing.Point(264, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(373, 28)
+        Me.Label7.Size = New System.Drawing.Size(297, 21)
         Me.Label7.TabIndex = 22
         Me.Label7.Text = "NAME: OMOLANA TIMILEHIN EZEKIEL"
         '
@@ -241,7 +241,7 @@ Partial Class Form1
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label9.Location = New System.Drawing.Point(264, 37)
+        Me.Label9.Location = New System.Drawing.Point(264, 27)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(231, 21)
         Me.Label9.TabIndex = 23
@@ -251,7 +251,7 @@ Partial Class Form1
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label10.Location = New System.Drawing.Point(264, 58)
+        Me.Label10.Location = New System.Drawing.Point(264, 48)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(347, 21)
         Me.Label10.TabIndex = 24
